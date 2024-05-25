@@ -1,10 +1,82 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+body {
+  background-color: #3c4d34;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("../images/solarhouse.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  margin: 0;
+  padding: 260px 0;
+  text-align: center;
+  color: #c4b7a0;
+}
+header h3 {
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
 header h1 {
   font-size: 94px;
-  line-height: 144px;
+  line-height: 1.5;
   font-family: "Raleway", serif;
+  margin: 0;
 }
-header p {
-  font-size: 16px;
-  line-height: 20px;
+header h2 {
+  font-size: 40px;
+  line-height: 1.5;
   font-family: "roboto", serif;
+  margin: 0;
+}
+
+header a {
+  background-color: #464a3c;
+  border-radius: 15px;
+  color: #c4b7a0;
+  font-family: "Raleway";
+  font-weight: 500;
+  line-height: 1.5;
+  display: inline-block;
+  margin-top: 32px;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header a:hover {
+  background-color: #c4b7a0;
+  color: #464a3c;
+  transition: 200ms ease-in-out;
+}
+footer {
+  padding: 30px 0;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+    line-height: 1;
+    margin: 20px 0;
+  }
+  header h2 {
+    font-size: 20px;
+    line-height: 1;
+  }
+  header h3 {
+    font-size: 9px;
+    line-height: 0.5;
+  }
+  header a {
+    padding: 10px 20px;
+    line-height: 0.75;
+    border: 1px solid #c4b7a0;
+  }
 }
