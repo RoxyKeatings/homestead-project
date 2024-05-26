@@ -134,6 +134,10 @@ footer p {
   line-height: 0.85;
   opacity: 0.9;
 }
+.github {
+  color: black;
+  text-decoration: underline;
+}
 
 @media (max-width: 960px) {
   .container {
