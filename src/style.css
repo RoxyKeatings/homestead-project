@@ -75,7 +75,7 @@ section {
 }
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 15px;
 }
 .grid-section {
   display: grid;
@@ -112,12 +112,11 @@ section.secondary {
 }
 .embed {
   width: 100%;
-  aspect-ratio: 21/9;
+  aspect-ratio: 16/9;
   border-radius: 15px;
 }
 .card-body h4,
 h5 {
-  margin: 10px;
   padding: 0;
   text-transform: uppercase;
   line-height: 1;
