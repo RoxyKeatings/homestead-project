@@ -76,7 +76,7 @@ section {
   padding: 100px 10px;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.4);
 }
@@ -117,11 +117,6 @@ section.secondary {
   border-radius: 15px;
   margin: 30px 0;
   line-height: 1.5;
-}
-.card img {
-  display: block;
-  width: 200px;
-  height: 200px;
 }
 .embed {
   width: 100%;
