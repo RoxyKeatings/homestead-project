@@ -236,6 +236,14 @@ footer p {
   .section {
     max-width: 100%;
   }
+  .grid-card {
+    grid-template-columns: 1fr;
+  }
+  .embed {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+  }
   .grid-footer {
     display: grid;
     font-size: 15px;
