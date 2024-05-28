@@ -154,6 +154,12 @@ h5 {
   color: #464a3c;
   transition: 200ms ease-in-out;
 }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
 footer {
   background-image: linear-gradient(
       rgba(70, 74, 60, 0.7),
@@ -243,6 +249,9 @@ footer p {
     margin: 0;
     padding: 5px;
   }
+  .gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr;
   .recipes-title {
     font: 900 30px "Raleway", sans-serif;
     background-image: url("../images/Canning_AdobeStock_273253373\ res.jpg");
