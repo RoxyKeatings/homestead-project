@@ -239,6 +239,9 @@ footer p {
   .grid-card {
     grid-template-columns: 1fr;
   }
+  .card {
+    max-width: 100%;
+  }
   .embed {
     width: 100%;
     aspect-ratio: 16/9;
