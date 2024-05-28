@@ -72,6 +72,7 @@ section {
 .img-responsive {
   max-width: 100%;
   border-radius: 15px;
+  display: block;
 }
 .grid {
   display: grid;
@@ -86,6 +87,10 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
 }
 section.secondary {
   background: #f8f8f8;
@@ -103,7 +108,6 @@ section.secondary {
 }
 .grid-card {
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 20px;
 }
 .card {
   background: white;
@@ -114,6 +118,9 @@ section.secondary {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 15px;
+}
+.card-header {
+  grid-gap: 0;
 }
 .card-body h4,
 h5 {
